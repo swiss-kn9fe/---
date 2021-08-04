@@ -1,0 +1,56 @@
+body{
+	background:url("photos/3.jpg") no-repeat;
+	background-size:cover;
+	color:white;
+	font-family:Arial;
+	/*font-size:20px;*/
+}
+
+.one{
+	color:blue;
+	font-size: 45px;
+}
+
+.two{
+	font-size: 40px;
+}
+ul{
+	margin:0px;
+	padding:0px; /*this makes all my items to be aligned (even though I'm using unordered lists)*/
+	list-style:none; /*this removes the dots introduced when you use unordered list*/
+	
+}
+li {
+	float: left; /*That's the text should be left-aligned*/
+	width:200px;
+	height:40px;
+	/*opacity:.8; opacity helps make the navigation menu transparent*/
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	
+}
+
+ul li a{
+	text-decoration:none; /*That's, I don't want my text to be underined or have any other fancy stuff*/
+	color:white;
+	/*display:block;*/
+}
+
+ul li a:hover{ /*This describes what should happen when my text is hovered*/
+	color:green;
+}
+
+ul li ul li{
+	display:none; /*This is to hide the sub-lists*/
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+a{
+	color:white;
+}
+
+/*tutorial followed:https://www.youtube.com/watch?v=8x1mO1d6-4w */
